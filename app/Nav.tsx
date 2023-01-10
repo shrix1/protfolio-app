@@ -27,7 +27,7 @@ const Nav = () => {
         <div className="flex justify-around">
           <Link
             href="/"
-            className="text-2xl pt-1 hover:text-white md:text-3xl 
+            className="text-2xl pt-1 hover:text-white lg:text-3xl 
           transition-colors duration-300 ease-in"
           >
             SHRI
@@ -55,10 +55,10 @@ const Nav = () => {
           duration-300 ease-out delay-75 bg-[#ffffff7b] rounded-md md:bg-transparent"
           id="menu"
         >
-          <Link href="#" className="hover:text-white md:text-xl">
+          <Link href="#" className="hover:text-white lg:text-xl">
             Projects
           </Link>
-          <Link href="#" className="hover:text-white md:text-xl">
+          <Link href="#" className="hover:text-white lg:text-xl">
             Contact
           </Link>
         </div>
