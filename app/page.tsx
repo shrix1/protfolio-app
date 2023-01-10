@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Poppins } from "@next/font/google";
 import Nav from "./Nav";
 import HeaderContent from "./HeaderContent";
+import About from "./About";
 
 const pop = Poppins({ weight: "300" });
 
@@ -14,6 +15,12 @@ export default function Home() {
         <Nav />
         {/* headerContent */}
         <HeaderContent />
+      </section>
+
+      {/* Main content */}
+      <section className="flex flex-col justify-center items-center mt-4">
+        {/* about */}
+        <About />
       </section>
     </main>
   );
