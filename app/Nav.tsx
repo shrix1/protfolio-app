@@ -1,6 +1,8 @@
+"use client";
 import React, { useState } from "react";
 import { IoMdMenu } from "react-icons/io";
 import { GrFormClose } from "react-icons/gr";
+import Link from "next/link";
 
 const Nav = () => {
   const [btn, setBtn] = useState(true);
@@ -18,24 +20,30 @@ const Nav = () => {
     menu.classList.add("hidden");
     setBtn(true);
   };
+
   return (
     <>
       <nav className="flex p-3 flex-col md:flex-row md:justify-around pt-[16px]">
         <div className="flex justify-around">
-          <a href="#" className="text-2xl pt-1 hover:text-white">
+          <Link
+            href="/"
+            className="text-2xl pt-1 hover:text-white md:text-3xl 
+          transition-colors duration-300 ease-in"
+          >
             SHRI
-          </a>
+          </Link>
 
           <div className="md:hidden cursor-pointer text-[27px] font-semibold">
             {btn ? (
               <IoMdMenu
                 className="mt-1 rounded-md w-[30px] h-[30px] hover:bg-[#ffffff7b] 
-                 "
+                 hover:text-white"
                 onClick={openMenu}
               />
             ) : (
               <GrFormClose
-                className="mt-1 rounded-md w-[30px] h-[30px] hover:bg-[#ffffff7b] "
+                className="mt-1 rounded-md w-[30px] h-[30px] hover:bg-[#ffffff7b]
+                hover:text-white "
                 onClick={closeMenu}
               />
             )}
@@ -47,12 +55,12 @@ const Nav = () => {
           duration-300 ease-out delay-75 bg-[#ffffff7b] rounded-md md:bg-transparent"
           id="menu"
         >
-          <a href="#" className="hover:text-white">
+          <Link href="#" className="hover:text-white md:text-xl">
             Projects
-          </a>
-          <a href="#" className="hover:text-white">
+          </Link>
+          <Link href="#" className="hover:text-white md:text-xl">
             Contact
-          </a>
+          </Link>
         </div>
       </nav>
     </>
