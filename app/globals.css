@@ -1,11 +1,17 @@
 @import url("//db.onlinewebfonts.com/c/6a6c946c81961ceab1711da6da2b26af?family=Akira+Expanded");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&family=Space+Grotesk&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
+@font-face {
   font-family: "Akira Expanded";
+  src: url(./Akira-Expanded.ttf);
+}
+
+body {
+  font-family: "Akira Expanded", "Poppins";
 }
 #grad {
   background-color: #a9c9ff;
