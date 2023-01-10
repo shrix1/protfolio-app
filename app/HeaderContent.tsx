@@ -8,13 +8,13 @@ const HeaderContent = () => {
     <main className="md:flex justify-center items-center">
       <section
         className="h-[320px] flex flex-col md:flex-row justify-between
-       items-center p-8 md:w-[90%]"
+       items-center p-8 md:w-[90%] "
       >
         {/* name */}
         <div className="">
           <h1 className="text-[28px] md:text-5xl ">Howdy , I'm </h1>
           <h1
-            className="text-[29px] tracking-wider md:text-[55px] "
+            className="text-[29px] tracking-wider md:text-[50px] "
             id="stroke"
           >
             Shriprasanna
@@ -26,7 +26,7 @@ const HeaderContent = () => {
         </div>
 
         {/* btn */}
-        <div className="flex w-[340px] justify-between md:flex-col h-[160px]">
+        <div className="flex w-[340px] justify-between md:flex-col md:h-[160px]">
           <Link href="#">
             <button
               className="w-[155px] md:w-[200px] border-2 border-black p-2 md:p-4 rounded-md 
