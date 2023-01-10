@@ -6,7 +6,7 @@ import { AiTwotonePhone } from "react-icons/ai";
 const Footer = () => {
   return (
     <div
-      className="w-full h-[140px] flex flex-col justify-center items-center gap-3"
+      className="w-full h-[140px] flex flex-col lg:flex-row justify-center items-center gap-3 lg:gap-[200px] lg:h-[60px]"
       id="grad"
     >
       <h1 className="text-[16px]">Connect with me over socials</h1>

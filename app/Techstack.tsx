@@ -17,6 +17,7 @@ const Techstack = () => {
         <h1>HTML5</h1>
         <h1>CSS3 - </h1>
         <h1>TailwindCSS - </h1>
+        <h1>Git/GitHub - </h1>
         <h1>Figma - </h1>
         <h1>Adobe XD</h1>
       </div>
