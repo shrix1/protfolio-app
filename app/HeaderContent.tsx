@@ -27,7 +27,10 @@ const HeaderContent = () => {
 
         {/* btn */}
         <div className="flex w-[340px] justify-between md:flex-col md:h-[160px]">
-          <Link href="#">
+          <Link
+            href="https://drive.google.com/file/d/1PJwR9z3qXa4EqGIX5fOf_uO4W9pNfezp/view?usp=sharing"
+            target="blank"
+          >
             <button
               className="w-[155px] md:w-[165px] lg:w-[200px] border-2 border-black p-2 md:p-4 rounded-md 
             flex justify-around hover:text-white hover:border-white lg:text-xl tracking-wide"
@@ -37,7 +40,7 @@ const HeaderContent = () => {
             </button>
           </Link>
 
-          <Link href="#">
+          <a href="mailto:shriprasanna32@gmail.com">
             <button
               className="w-[155px] md:w-[165px] lg:w-[200px] border-2 border-black p-2 md:p-4 rounded-md 
               flex justify-around hover:text-white hover:border-white lg:text-xl tracking-wide"
@@ -45,7 +48,7 @@ const HeaderContent = () => {
               hire me{" "}
               <FiSend className="text-[22px] mt-[2px] text-black lg:text-[28px]" />
             </button>
-          </Link>
+          </a>
         </div>
       </section>
     </main>

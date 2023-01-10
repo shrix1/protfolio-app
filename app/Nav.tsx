@@ -55,12 +55,12 @@ const Nav = () => {
           duration-300 ease-out delay-75 bg-[#ffffff7b] rounded-md md:bg-transparent"
           id="menu"
         >
-          <Link href="#" className="hover:text-white lg:text-xl">
+          <Link href="/projects" className="hover:text-white lg:text-xl">
             Projects
           </Link>
-          <Link href="#" className="hover:text-white lg:text-xl">
+          <a href="#contact" className="hover:text-white lg:text-xl">
             Contact
-          </Link>
+          </a>
         </div>
       </nav>
     </>

@@ -11,8 +11,8 @@ const About = () => {
 
       <div className=" h-[340px] flex p-4 justify-between">
         <h1
-          className="text-xl font-pop text-white w-[150px] lg:w-[200px] 
-        lg:text-[23px] lg:-mt-[20px] md:text-[24px] md:leading-[31px] "
+          className="text-[18px] font-pop text-white w-[150px] lg:w-[200px] 
+        lg:text-[21.3px] lg:-mt-[20px] md:text-xl md:leading-[31px] "
         >
           After watching some film i felt love in Programming and started
           improving My Coding Skills & Developing / designing web application.{" "}
@@ -21,7 +21,7 @@ const About = () => {
         <Image
           src="/photo.png"
           alt="sasa"
-          width={170}
+          width={160}
           height={100}
           className="rounded-md -mt-[55px] lg:w-[200px] h-[350px]"
           priority

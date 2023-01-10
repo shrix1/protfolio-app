@@ -12,10 +12,12 @@ const Others = () => {
     >
       <div
         className="border-2 w-[45%] h-[150px] rounded-md flex 
-      justify-center items-center flex-col"
+      justify-center items-center flex-col cursor-pointer hover:text-black"
       >
-        <h1 className="text-[20px] text-center">All Projects</h1>
-        <h1 className="text-[20px] text-center"> - more -</h1>
+        <Link href="/projects">
+          <h1 className="text-[20px] text-center">All Projects</h1>
+          <h1 className="text-[20px] text-center"> - more -</h1>{" "}
+        </Link>
       </div>
 
       {/* Links */}
@@ -23,16 +25,16 @@ const Others = () => {
         className="border-2 w-[45%] h-[150px] rounded-md flex justify-center items-center flex-wrap
         text-4xl p-3 gap-[40px]"
       >
-        <Link href="">
+        <Link href="https://twitter.com/shriprasanna007">
           <AiOutlineTwitter className="text-[#3d97e0] text-5xl" />
         </Link>
-        <Link href="">
+        <Link href="https://github.com/shrix1">
           <BsGithub className=" text-[#000000]" />
         </Link>
-        <Link href="">
+        <Link href="https://leetcode.com/problemset/all/">
           <SiLeetcode className=" text-[#cfe64f]" />
         </Link>
-        <Link href="">
+        <Link href="https://www.linkedin.com/in/shrix1/">
           <BsLinkedin className=" text-[#006fca]" />
         </Link>
       </div>

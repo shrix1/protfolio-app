@@ -10,18 +10,19 @@ const Footer = () => {
       id="grad"
     >
       <h1 className="text-[16px]">Connect with me over socials</h1>
-      <Link href="/">
-        <div className="font-pop font-semibold flex gap-2">
+      <a href="mailto:shriprasanna32@gmail.com">
+        <div className="font-pop font-semibold flex gap-2" id="contact">
           <BiMailSend className="text-3xl -mt-1" />
           <h1>shriprasanna32@gmail.com</h1>
         </div>
-      </Link>
-      <Link href="/">
+      </a>
+
+      <a href="tel:+917904028913">
         <div className="font-pop font-semibold flex gap-2">
           <AiTwotonePhone className="text-2xl" />
           <h1 className="">+91 7904028913</h1>{" "}
         </div>
-      </Link>
+      </a>
     </div>
   );
 };

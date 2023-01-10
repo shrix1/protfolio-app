@@ -1,4 +1,4 @@
-import Image from "next/image";
+"use client";
 import Nav from "./Nav";
 import HeaderContent from "./HeaderContent";
 import About from "./About";
@@ -6,8 +6,19 @@ import Education from "./Education";
 import Techstack from "./Techstack";
 import Other from "./Others";
 import Footer from "./Footer";
+// import React, { useState, useEffect } from "react";
+// import RingLoader from "react-spinners/RingLoader";
 
 export default function Home() {
+  // const [loading, setLoading] = useState(false);
+
+  // useEffect(() => {
+  //   setLoading(true);
+  //   setTimeout(() => {
+  //     setLoading(false);
+  //   }, 800);
+  // }, []);
+
   return (
     <>
       <main className="bg-[#2F2F2F] w-full h-full p-3">
